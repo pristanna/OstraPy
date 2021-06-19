@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_43737</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>198</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_43737</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>198</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|551623717|ref|XP_005792157.1|</Hit_id>
+  <Hit_def>Rab20, rab family GTPase [Emiliania huxleyi CCMP1516] &gt;gi|485646176|gb|EOD39728.1| Rab20, rab family GTPase [Emiliania huxleyi CCMP1516]</Hit_def>
+  <Hit_accession>XP_005792157</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>403.675</Hsp_bit-score>
+      <Hsp_score>1036</Hsp_score>
+      <Hsp_evalue>1.68439e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MEVVDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>MEVVDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_hseq>
+      <Hsp_midline>MEVVDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|922864713|gb|KOO31914.1|</Hit_id>
+  <Hit_def>rab gtpase [Chrysochromulina sp. CCMP291]</Hit_def>
+  <Hit_accession>KOO31914</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.375</Hsp_bit-score>
+      <Hsp_score>786</Hsp_score>
+      <Hsp_evalue>2.24488e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>MEVVDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESN--GRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>METVDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKVEPSDGGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECVTTKWIRKVMDEAEQGCHICIVGTKLDLVQAGAATRAVKADEIEALAQKHHAHWFETSAKQGEGVAQIFEKIVRQYHSRANAGDARQAGLPQA--KSKSGGGCC</Hsp_hseq>
+      <Hsp_midline>ME VDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKK+E +  GRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFEC+ +KW++KV+DEAE GCHICIVGTKLDLVQAG   RAV  +E+ A+A KHHA  FE S+K G G+ +IFE +V+ +HSR  +G A   GL  +  +++ GGGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1126167212|ref|XP_019615459.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24-like isoform X2 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>XP_019615459</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.28559e-44</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTFGETI---STIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGV-QAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDCKVVLLGKAYGGKTSLVERYLHDRFNAEMPYQNTIGAAFGAKRVEVDGKLVTLGIWDTAGSERYEAMSKIYYRGAKAAVVCYDLTDDASFE--RAKFWVKELNDNEEACKVYLCGTKLDLVQENRKARKVDYHMTTDYADEIHAEVIETSSKTGFNVSELFEKVAEGFARDPANRQTVQSAENFQVTEQGKSRGGCC</Hsp_hseq>
+      <Hsp_midline>VD K+VLLG+   GKT LV RYL++ F   +   +TIGA+F  K++E +G+   LGIWDTAG ER++++S  Y RGA+AA++C+DLTD ASFE  ++K+  K L++ E  C + + GTKLDLVQ  R  R V        A + HA+V E SSK G  + E+FE V + F    A+        +     Q +  GGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|857970423|emb|CEP03446.1|</Hit_id>
+  <Hit_def>hypothetical protein PBRA_003206 [Plasmodiophora brassicae]</Hit_def>
+  <Hit_accession>CEP03446</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.39547e-44</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>DLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIE-SNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQ</Hsp_qseq>
+      <Hsp_hseq>DLKCVLLGQKNVGKTSIFNRYVYQEFAPTSMTIGAYFAVKSCRLPSGSSYSVAIWDTAGEERFDSLTNFYCRGAQAAVVVYDITSLTSFQRIE-RWIEKINNEAHNDCVIVFAGNKLDVVEETPTKRQVEFADAQALANRHAGEAFEVSAKTGAGVADVFDAVVR</Hsp_hseq>
+      <Hsp_midline>DLK VLLGQ  VGKT +  RY+Y  F  T  TIGA FA+K     +G   ++ IWDTAG+ERFDSL++FYCRGA+AA++ +D+T   SF+ ++ +W++K+ +EA   C I   G KLD+V+     R V   + +A+A +H  + FEVS+K G G+ ++F+AVV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1191033093|ref|XP_020893620.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-24-like [Exaiptasia pallida] &gt;gi|999979008|gb|KXJ18182.1| Ras-related protein Rab-24 [Exaiptasia pallida]</Hit_def>
+  <Hit_accession>XP_020893620</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>5.12696e-44</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>LKLVLLGQPGVGKTCLVYRYLYNTFGE-TISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHH-----ADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>LKVVLLGKVNSGKTCLVTRYITRAFSEETPSTIGAAFCRKDLYIQGRNLSLAIWDTAGAERYQAMSAMYYRSARAAIICYDLTDDGSF--TKAKFWVDQLKDAEPECRIYLCGTKLDLIE-----EAVSPREVLTRAVSNYGRDIGADVFETSSKRGTNVDKVFEKIAEDFMRLNKVPGQGKGDVTLDN-GSRKKISCC</Hsp_hseq>
+      <Hsp_midline>LK+VLLG+   GKTCLV RY+   F E T STIGA+F  K +   GR  +L IWDTAG ER+ ++S+ Y R ARAAIIC+DLTD  SF   ++K+    L +AEP C I + GTKLDL++      AVS  EV   A  ++     ADVFE SSK GT + ++FE + + F       G G G +++    +R+   CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|66828159|ref|XP_647434.1|</Hit_id>
+  <Hit_def>Rab GTPase [Dictyostelium discoideum AX4] &gt;gi|74997513|sp|Q55FU9.1|RAB24_DICDI RecName: Full=Ras-related protein Rab-24 &gt;gi|60475719|gb|EAL73654.1| Rab GTPase [Dictyostelium discoideum AX4]</Hit_def>
+  <Hit_accession>XP_647434</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>7.24766e-44</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>200</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASG-----GAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>IDLKVVLLGYASVGKTCIVTRYTSGQFGDTHTTIGGAFSSKRVVVGETEVLLGIWDTAGTERYQAVNVSYYRRANAAIVCYDLTNRESWEKV-TFWAEE-LTQNEPEIEIYIVGTKLDLIQQGDI-KAVPEEEVKQTARRYKAHIFETSSRTGENVSLLFQTIAEDFCKRTNNGTNPVNSNPSNVVNVNTQTQKKKGGCC</Hsp_hseq>
+      <Hsp_midline>+DLK+VLLG   VGKTC+V RY    FG+T +TIG +F+ K++        LGIWDTAG ER+ +++  Y R A AAI+C+DLT+R S+E + + W ++ L + EP   I IVGTKLDL+Q G   +AV EEEV+  A ++ A +FE SS+ G  +  +F+ + + F  R  +G           ++V+    ++ GGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1126167210|ref|XP_019615458.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24-like isoform X1 [Branchiostoma belcheri]</Hit_def>
+  <Hit_accession>XP_019615458</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>2.90407e-43</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTFGETI---STIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA--------SGGAGHGGLSVSG--------VQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDCKVVLLGKAYGGKTSLVERYLHDRFNAEMPYQNTIGAAFGAKRVEVDGKLVTLGIWDTAGSERYEAMSKIYYRGAKAAVVCYDLTDDASFERAKF-WVKE-LNDNEEACKVYLCGTKLDLVQENRKARKVDYHMTTDYADEIHAEVIETSSKTGFNVSELFEKVAEGFARDPANRQTVQISSSGPQYPSTSFNKGAENFQVTEQGKSRGGCC</Hsp_hseq>
+      <Hsp_midline>VD K+VLLG+   GKT LV RYL++ F   +   +TIGA+F  K++E +G+   LGIWDTAG ER++++S  Y RGA+AA++C+DLTD ASFE  +  WVK+ L++ E  C + + GTKLDLVQ  R  R V        A + HA+V E SSK G  + E+FE V + F    A        S G  +   S +          Q +  GGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|330799139|ref|XP_003287605.1|</Hit_id>
+  <Hit_def>Rab GTPase [Dictyostelium purpureum] &gt;gi|325082391|gb|EGC35874.1| Rab GTPase [Dictyostelium purpureum]</Hit_def>
+  <Hit_accession>XP_003287605</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.95818e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>204</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGH---------GGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>IDLKVVLLGYASVGKTCIVYREMYNQFGDTHTTIGGAFSSKRAVVGDTEVLLGIWDTAGTERYQAVNRSYYRRANAAIVCYDLTNSETWEKV-TFWAEE-LTQNEPDIEIYIVGTKLDLIQHGE-QRAIPNIRVEETAKRYNAHIFETSSRTGENVSLLFQTIAENFCKKTNNGTNLPNHNNNNSIGNSVKVDQKSEKEKGGCC</Hsp_hseq>
+      <Hsp_midline>+DLK+VLLG   VGKTC+VYR +YN FG+T +TIG +F+ K+         LGIWDTAG ER+ +++  Y R A AAI+C+DLT+  ++E + + W ++ L + EP   I IVGTKLDL+Q G   RA+    V   A +++A +FE SS+ G  +  +F+ + ++F  +  +G               + V     +E GGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|676450819|ref|XP_009052503.1|</Hit_id>
+  <Hit_def>hypothetical protein LOTGIDRAFT_188052 [Lottia gigantea] &gt;gi|556108367|gb|ESO97019.1| hypothetical protein LOTGIDRAFT_188052 [Lottia gigantea]</Hit_def>
+  <Hit_accession>XP_009052503</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.53916e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF-GETI---STIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDVKVVLLGKSYAGKTCLVERYIHERYTGDTVPYHNTIGAAFGAKKVTVNGKSVVLGIWDTAGSERYESMSRIYYRNAKAAVLCFDLTDKSSFDRVRF-WIGELQDH-EENCKIYLCGTKKDIVDDDSSHRSVNEREAQALATDVMAELYETSSKTGENIRELFTKVAQDY</Hsp_hseq>
+      <Hsp_midline>VD+K+VLLG+   GKTCLV RY++  + G+T+   +TIGA+F  KK+  NG+   LGIWDTAG ER++S+S  Y R A+AA++CFDLTD++SF+ ++  W+ ++ D  E  C I + GTK D+V      R+V+E E +A+A    A+++E SSK G  I E+F  V Q +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|470300150|ref|XP_004346818.1|</Hit_id>
+  <Hit_def>hypothetical protein CAOG_05133 [Capsaspora owczarzaki ATCC 30864] &gt;gi|765553878|gb|KJE94499.1| hypothetical protein CAOG_005133 [Capsaspora owczarzaki ATCC 30864]</Hit_def>
+  <Hit_accession>XP_004346818</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.058</Hsp_bit-score>
+      <Hsp_score>375</Hsp_score>
+      <Hsp_evalue>8.28349e-42</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>208</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYN--TFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF-HSRGASGGAGHGGLSV---------SGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDLKVVLLGREASGKTCLVDRYLHDRFNFGVNQATVGAAFGAKKLQIGGHTITMGIWDTAGSERYEAMSRIYYRGAKAAITCFDVMDPTSFERLKF-WVNE-LRNNEEHCKLYICGTKVDIAEGNRSGR-VDVHSVSDYADEVHARYFDTSSKTGQGIQELFTAIAEDFIQSESKTRTLAADGATVPLARRDPVGSGRSAEPAGGCC</Hsp_hseq>
+      <Hsp_midline>VDLK+VLLG+   GKTCLV RYL++   FG   +T+GA+F  KK++  G    +GIWDTAG ER++++S  Y RGA+AAI CFD+ D  SFE L+  WV + L   E  C + I GTK+D+ +  R GR V    V   A + HA  F+ SSK G GI E+F A+ + F  S   +      G +V         SG  A   GGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1176063206|ref|XP_020601737.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-24-like [Orbicella faveolata]</Hit_def>
+  <Hit_accession>XP_020601737</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>1.25861e-41</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>LKLVLLGQPGVGKTCLVYRYLYNTFGE-TISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAG-HGGLSVSGVQAREGGGC</Hsp_qseq>
+      <Hsp_hseq>LKVVLLGKVNSGKTCLVTRYITRSFSEETPSTIGAAFCRKDLYIQGRNLSLAIWDTAGAERYQAMSAMYYRSARAAILCYDLTDDTSFDKVKF-WVDQ-LKTAEPDCKIYLCGTKLDLIEEAVQPRAVQTKTALNYCRDIGADVFETSSKRGYNVDKVFEKIAEDFMKSSHMIDSGPKGNVQLDGKSATKRWCC</Hsp_hseq>
+      <Hsp_midline>LK+VLLG+   GKTCLV RY+  +F E T STIGA+F  K +   GR  +L IWDTAG ER+ ++S+ Y R ARAAI+C+DLTD  SF+ ++  WV + L  AEP C I + GTKLDL++     RAV  +          ADVFE SSK G  + ++FE + + F        +G  G + + G  A +   C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|156354908|ref|XP_001623422.1|</Hit_id>
+  <Hit_def>predicted protein [Nematostella vectensis] &gt;gi|156210119|gb|EDO31322.1| predicted protein, partial [Nematostella vectensis]</Hit_def>
+  <Hit_accession>XP_001623422</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.362</Hsp_bit-score>
+      <Hsp_score>368</Hsp_score>
+      <Hsp_evalue>3.40382e-41</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>LKLVLLGQPGVGKTCLVYRYLYNTFGE-TISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>LKVVLLGKVNSGKTCLVTRYITRAFSEETPSTIGAAFCRKDLYIQGKNLSLAIWDTAGAERYQAMSAMYYRSARAAILCYDLTDSTSFDKAKF-WVDQ-LKAAEPECKIYLCGTKLDLIEEALQTREVQTRAVSSYGRDIGADTFETSSKRGTNVDKVFEKIAEDF</Hsp_hseq>
+      <Hsp_midline>LK+VLLG+   GKTCLV RY+   F E T STIGA+F  K +   G+  +L IWDTAG ER+ ++S+ Y R ARAAI+C+DLTD  SF+  +  WV + L  AEP C I + GTKLDL++     R V    V +      AD FE SSK GT + ++FE + + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|443730007|gb|ELU15702.1|</Hit_id>
+  <Hit_def>hypothetical protein CAPTEDRAFT_56170, partial [Capitella teleta]</Hit_def>
+  <Hit_accession>ELU15702</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>1.55528e-40</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>181</Hsp_align-len>
+      <Hsp_qseq>DLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHAD------VFEVSSKAGTGIGEIFEAVVQHFHSRGASGGA</Hsp_qseq>
+      <Hsp_hseq>DLKVVIMGAASVGKTTIIHRYIEKRFQETISTIGASFSLKQ----WGPYNIALWDTAGEERFSGLSSFYCRGAGAAILAYDLTSDDSFHALRARF-KGLLEAAEDDCLVVVVGTKLDMVT--EENRAVPPQDAKALARELNTQQLTELPYFETSSLSGHNVDRLFEYIFQHCLPVNESGQA</Hsp_hseq>
+      <Hsp_midline>DLK+V++G   VGKT +++RY+   F ETISTIGASF++K+      P N+ +WDTAG+ERF  LSSFYCRGA AAI+ +DLT   SF  L++++ K +L+ AE  C + +VGTKLD+V      RAV  ++ +A+A + +         FE SS +G  +  +FE + QH      SG A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|470251970|ref|XP_004359082.1|</Hit_id>
+  <Hit_def>Rab GTPase [Dictyostelium fasciculatum] &gt;gi|328872865|gb|EGG21232.1| Rab GTPase [Dictyostelium fasciculatum]</Hit_def>
+  <Hit_accession>XP_004359082</Hit_accession>
+  <Hit_len>206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.63242e-40</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>166</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>DLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>DIKVVVLGLTSVGKSCLVQRFMYNNFEHTVMTVGGAYSCKRIQVGNNEVYLGIWDTAGTERYEAVNRSYYRRARAAIVCYDLTNLSSLDKV-TFWVEE-LTHNEPNIDIYIVGNKLDLIQEGE-KRQVTQQQVDEIANKYNAVTLETSSKTGENINLLLQTIAENF</Hsp_hseq>
+      <Hsp_midline>D+K+V+LG   VGK+CLV R++YN F  T+ T+G +++ K+I+       LGIWDTAG ER+++++  Y R ARAAI+C+DLT+ +S + + + WV++ L   EP   I IVG KLDL+Q G   R V++++V  +A K++A   E SSK G  I  + + + ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|602648357|ref|XP_007430596.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 [Python bivittatus] &gt;gi|602648359|ref|XP_007430597.1| PREDICTED: ras-related protein Rab-24 [Python bivittatus] &gt;gi|1004678987|ref|XP_015743978.1| PREDICTED: ras-related protein Rab-24 [Python bivittatus]</Hit_def>
+  <Hit_accession>XP_007430596</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.591</Hsp_bit-score>
+      <Hsp_score>366</Hsp_score>
+      <Hsp_evalue>1.7119e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMPVGGRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDRSSFQRAKF-WVNE-LQNFEENCRIYLCGTKSDLLEEDRRRREIDFHDVQDYADEIKAELFETSSKTGQNVDELFQKVAEDYVQFTAFDLTEEKGVDLNQKSTTYFYSCC</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +   GR   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTDR+SF+  +  WV + L   E  C I + GTK DL++  R  R +   +V+  A +  A++FE SSK G  + E+F+ V + +    A       G+ ++         CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1073698687|gb|JAT92400.1|</Hit_id>
+  <Hit_def>putative gtpase [Amblyomma aureolatum]</Hit_def>
+  <Hit_accession>JAT92400</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>2.30248e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>MEVVDLKLVLLGQPGVGKTCLVYRYLYNTFGETI---STIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLV-QAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>MSHVDLKVVLLGKEYGGKTSLVERYLYDRFDASTPYQNTIGAAYGAKQIAVRNRRITLGIWDTAGSERYEAMSRIYYRGAGAAIVCFDLTDRESYQ--KAKFWVSELRKHEEKCQIFLCGTKNDLIREEGRY-RVINYHDVLDYADEIGAKMFETSSKTGEGIAELFCQIAKDYIESMAAPRNKRANFRLEE-QASQGGGCC</Hsp_hseq>
+      <Hsp_midline>M  VDLK+VLLG+   GKT LV RYLY+ F  +    +TIGA++  K+I    R   LGIWDTAG ER++++S  Y RGA AAI+CFDLTDR S++  ++K+    L + E  C I + GTK DL+ + GRY R ++  +V   A +  A +FE SSK G GI E+F  + + +    A+         +   QA +GGGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|530576700|ref|XP_005282317.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X1 [Chrysemys picta bellii]</Hit_def>
+  <Hit_accession>XP_005282317</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.206</Hsp_bit-score>
+      <Hsp_score>365</Hsp_score>
+      <Hsp_evalue>2.38662e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMSVRGRTVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFQRAKF-WVTE-LQNFEENCQIYLCGTKSDLLEEDRKKRGIDFHDVQDYADEIKAELFETSSKTGQSVDELFQKVAEDY</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +   GR   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  +  WV + L   E  C I + GTK DL++  R  R +   +V+  A +  A++FE SSK G  + E+F+ V + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1022964830|ref|XP_016286026.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X1 [Monodelphis domestica] &gt;gi|1022964832|ref|XP_016286028.1| PREDICTED: ras-related protein Rab-24 isoform X1 [Monodelphis domestica]</Hit_def>
+  <Hit_accession>XP_016286026</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.821</Hsp_bit-score>
+      <Hsp_score>364</Hsp_score>
+      <Hsp_evalue>2.99655e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA</Hsp_qseq>
+      <Hsp_hseq>VDLKVVMLGKEYVGKTSLVERYVHDRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFE--RAKFWVKELQSLEEGCQIYLCGTKSDLLEEDRRLRRVDFHDVQDYADDIKAQLFETSSKTGQSVDELFQKVAEDYVSVAA</Hsp_hseq>
+      <Hsp_midline>VDLK+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  ++K+  K L   E GC I + GTK DL++  R  R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|675375140|gb|KFM68042.1|</Hit_id>
+  <Hit_def>hypothetical protein X975_14820, partial [Stegodyphus mimosarum]</Hit_def>
+  <Hit_accession>KFM68042</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.436</Hsp_bit-score>
+      <Hsp_score>363</Hsp_score>
+      <Hsp_evalue>4.28648e-40</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>201</Hsp_align-len>
+      <Hsp_qseq>MEVVDLKLVLLGQPGVGKTCLVYRYLYNTF---GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>MSKVDVKIVLLGKEYSGKTSLVERFVYDQFIGDDSYQNTIGAAFGAKKIEVSGDVLTLGLWDTAGSERYQSISRIYYRSSHAAVVCYDLTDAESFE--KAKFWISELTQVEEKCKIYLCGTKKDLIANGCKQRAIDYHNVTDYADEVHAEVFETSSKTGEGVYDLFYRIAENFWREKIVIENVGNGFNILNVEEKKTRSCC</Hsp_hseq>
+      <Hsp_midline>M  VD+K+VLLG+   GKT LV R++Y+ F       +TIGA+F  KKIE +G    LG+WDTAG ER+ S+S  Y R + AA++C+DLTD  SFE  ++K+    L + E  C I + GTK DL+  G   RA+    V   A + HA+VFE SSK G G+ ++F  + ++F            G ++  V+ ++   CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|505834630|ref|XP_004611489.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 [Sorex araneus]</Hit_def>
+  <Hit_accession>XP_004611489</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>144.05</Hsp_bit-score>
+      <Hsp_score>362</Hsp_score>
+      <Hsp_evalue>6.12667e-40</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHDRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFERAKF-WVKE-LRSLEEGCQIYLCGTKRDLLDEDRHRRRVDFHDVQDYADNIKAQLFETSSKTGQSVDELFQKVAEDYVSVAA</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  +  WVK+ L   E GC I + GTK DL+   R+ R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1176260419|ref|XP_020646316.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-24 [Pogona vitticeps]</Hit_def>
+  <Hit_accession>XP_020646316</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.665</Hsp_bit-score>
+      <Hsp_score>361</Hsp_score>
+      <Hsp_evalue>1.07623e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVS</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMSVGGRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFQ--RAKFWVNELQNFEENCRIYLCGTKSDLLDEDRRRREIDFHDAQDYADEIRADLFETSSKTGQNVDELFQKVAEDYVQFAAFEMTEEKGLDLS</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +   GR   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SF+  ++K+    L   E  C I + GTK DL+   R  R +   + +  A +  AD+FE SSK G  + E+F+ V + +    A       GL +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|632982928|ref|XP_007908396.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X2 [Callorhinchus milii]</Hit_def>
+  <Hit_accession>XP_007908396</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.10405e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEFVGKTSLVERYVHNRFLNGPYQNTIGAAFVAKLIHVGEKAITLGIWDTAGSERYESMSRIYYRGARAAVVCFDLTDSSSF-ARAKFWVNEV-QSCEEHCKIYLCGTKSDLVQSDRSLRQVDYHDVQDYTDEIKAKLFETSSKTGQNVDELFQVVAEDYVNVTAFQVMTDKGVNLTEKKKSYLFSCC</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K I    +   LGIWDTAG ER++S+S  Y RGARAA++CFDLTD +SF      WV +V    E  C I + GTK DLVQ+ R  R V   +V+    +  A +FE SSK G  + E+F+ V + + +  A       G++++  +      CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|642120897|emb|CDQ64547.1|</Hit_id>
+  <Hit_def>unnamed protein product [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>CDQ64547</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.24857e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVGDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDTSSFQRAKF-WVKEVQN-CEEHCKIYLCGTKVDLIESDRGLRQVDYHDVQDFADEIGAQHFETSSKTGNNVDELFQKVAEDFNSISFQFMTEETGIDLGQKKDSYFYSCC</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  +  WVK+V +  E  C I + GTK+DL+++ R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F+S          G+ +   +      CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|185135007|ref|NP_001117845.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-24 [Oncorhynchus mykiss] &gt;gi|8953548|emb|CAB96579.1| Rab protein [Oncorhynchus mykiss]</Hit_def>
+  <Hit_accession>NP_001117845</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.40661e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVGDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDISSFQRAKF-WVKEVQN-CEEHCKIYLCGTKVDLIESDRGLRQVDYHDVQDFADEIGAQHFETSSKTGNNVDELFQKVAEDFNSISFQFMTEEAGIDLGQKKDSYFYSCC</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  +  WVK+V +  E  C I + GTK+DL+++ R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F+S          G+ +   +      CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|432901124|ref|XP_004076816.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-24 isoform X1 [Oryzias latipes] &gt;gi|1174654999|ref|XP_020564773.1| ras-related protein Rab-24 isoform X1 [Oryzias latipes]</Hit_def>
+  <Hit_accession>XP_004076816</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>143.28</Hsp_bit-score>
+      <Hsp_score>360</Hsp_score>
+      <Hsp_evalue>1.44751e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>196</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTFGETI-STIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHNRFLHPYQNTIGAAFVAKPIQVGEKVITLGIWDTAGAERYEAMSRIYYRGARAAIICYDLTDSSSFQRARF-WVKE-LQNCEELCKIYLCGTKSDLIEADRSRRQIDFHDAQDFAEEIGAQLFETSSKTGKNVDEMFQKVAEDYNSTAFQYMTEDTNVNLDQKKNSNFYSCC</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++N F     +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAIIC+DLTD +SF+  +  WVK+ L   E  C I + GTK DL++A R  R +   + +  A +  A +FE SSK G  + E+F+ V + ++S           +++   +      CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|831773517|ref|XP_012753934.1|</Hit_id>
+  <Hit_def>hypothetical protein SAMD00019534_058820 [Acytostelium subglobosum LB1] &gt;gi|735854566|dbj|GAM22707.1| hypothetical protein SAMD00019534_058820 [Acytostelium subglobosum LB1]</Hit_def>
+  <Hit_accession>XP_012753934</Hit_accession>
+  <Hit_len>195</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>1.63814e-39</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>DLKLVLLGQPGVGKTCLVYRYLYNTFGETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF-HSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>DVKVVVLGLSSVGKSCLVHRCITNQFEHTVMTVGGTFSAKKMQVGNTEVVLGIWDTAGTERYESVNRSYYRRAKAAIICYDITNAVSLDKV-TFWAEE-LTLNEPNIDIYIVGTKLDLIQEGER-RVVQPRDVQTIAEKYQAMTFETSSKTGQGVQQLLQAIAETYCRKYPNEVNNNNVNLSQSGAKS---GGCC</Hsp_hseq>
+      <Hsp_midline>D+K+V+LG   VGK+CLV+R + N F  T+ T+G +F+ KK++       LGIWDTAG ER++S++  Y R A+AAIIC+D+T+  S + + + W ++ L   EP   I IVGTKLDL+Q G   R V   +V+ +A K+ A  FE SSK G G+ ++ +A+ + +           +  LS SG ++   GGCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|1002602663|ref|XP_015680480.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 [Protobothrops mucrosquamatus] &gt;gi|1002602665|ref|XP_015680481.1| PREDICTED: ras-related protein Rab-24 [Protobothrops mucrosquamatus]</Hit_def>
+  <Hit_accession>XP_015680480</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>1.65997e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMPVGGRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDRSSFQRAKF-WVNE-LQNFEENCRIYLCGTKSDLLEEDKRRREIDFHDVQDYADEIKAELFETSSKTGQNVDELFQKVAEDY</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +   GR   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTDR+SF+  +  WV + L   E  C I + GTK DL++  +  R +   +V+  A +  A++FE SSK G  + E+F+ V + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|927136351|ref|XP_013911647.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 [Thamnophis sirtalis]</Hit_def>
+  <Hit_accession>XP_013911647</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>2.03932e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMAVGGRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDRSSFQRAKF-WVNE-LQNFEENCRIYLCGTKSDLLEEDKRRREIDFHDVQDYADEIKAELFETSSKTGQNVDELFQKVAEDY</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +   GR   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTDR+SF+  +  WV + L   E  C I + GTK DL++  +  R +   +V+  A +  A++FE SSK G  + E+F+ V + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|929235369|ref|XP_013993485.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24-like [Salmo salar]</Hit_def>
+  <Hit_accession>XP_013993485</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.51</Hsp_bit-score>
+      <Hsp_score>358</Hsp_score>
+      <Hsp_evalue>2.52497e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVGDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDTGSFQRAKF-WVKEVQN-CEEHCKIYLCGTKVDLIESDRGLRQVDYHDVQDFADEIGAQHFETSSKTGNNVDELFQKVAEDFNSISFQFMTEETGIDLGQKKDSYFYSCC</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD  SF+  +  WVK+V +  E  C I + GTK+DL+++ R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F+S          G+ +   +      CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|742100992|ref|XP_010869239.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X1 [Esox lucius]</Hit_def>
+  <Hit_accession>XP_010869239</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>3.57115e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVADKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDTSSFQ--RAKFWVNELQNCEEHCKIYLCGTKLDLIESDRGLRQVDYHDVQDFADEIGATHFETSSKTGSKVDELFEKVAEDYNSISFQFMTEETGIDLGQKKDSYFYTCC</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  ++K+    L   E  C I + GTKLDL+++ R  R V   +V+  A +  A  FE SSK G+ + E+FE V + ++S          G+ +   +      CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|632982926|ref|XP_007908395.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X1 [Callorhinchus milii]</Hit_def>
+  <Hit_accession>XP_007908395</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>3.62077e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEFVGKTSLVERYVHNRFLNGPYQNTIGAAFVAKLIHVGEKAITLGIWDTAGSERYESMSRIYYRGARAAVVCFDLTDSSSF-ARAKFWVNEV-QSCEEHCKIYLCGTKSDLVQSDRSLRQVDYHDVQDYTDEIKAKLFETSSKTGQNVDELFQVVAEDY</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K I    +   LGIWDTAG ER++S+S  Y RGARAA++CFDLTD +SF      WV +V    E  C I + GTK DLVQ+ R  R V   +V+    +  A +FE SSK G  + E+F+ V + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1179783052|gb|JAV49489.1|</Hit_id>
+  <Hit_def>Ras-related protein Rab-24-like protein [Agkistrodon contortrix contortrix]</Hit_def>
+  <Hit_accession>JAV49489</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.124</Hsp_bit-score>
+      <Hsp_score>357</Hsp_score>
+      <Hsp_evalue>3.66019e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMPVGGRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDRSSFQRAKF-WVNE-LQNFEENCRIYLCGTKSDLLEEDKRRREIDFHDVQDYADEIKAKLFETSSKTGQNVDELFQKVAEDY</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +   GR   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTDR+SF+  +  WV + L   E  C I + GTK DL++  +  R +   +V+  A +  A +FE SSK G  + E+F+ V + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|260828311|ref|XP_002609107.1|</Hit_id>
+  <Hit_def>hypothetical protein BRAFLDRAFT_91085 [Branchiostoma floridae] &gt;gi|229294461|gb|EEN65117.1| hypothetical protein BRAFLDRAFT_91085 [Branchiostoma floridae]</Hit_def>
+  <Hit_accession>XP_002609107</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>5.53976e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTFGETI---STIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEI</Hsp_qseq>
+      <Hsp_hseq>VDCKVVLLGKAYGGKTSLVERYLHDRFNAEMPYQNTIGAAFGAKRVEVDGKIVTLGIWDTAGSERYEAMSKIYYRGAKAAVVCYDLTDDGSFERAKF-WVKE-LNDNEEACRVYLCGTKLDLVQENRKARRVDYHMTTDYADEIHAEVIETSSKTGFNVNYL</Hsp_hseq>
+      <Hsp_midline>VD K+VLLG+   GKT LV RYL++ F   +   +TIGA+F  K++E +G+   LGIWDTAG ER++++S  Y RGA+AA++C+DLTD  SFE  +  WVK+ L++ E  C + + GTKLDLVQ  R  R V        A + HA+V E SSK G  +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1158874391|ref|XP_020341142.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-24 [Oncorhynchus kisutch]</Hit_def>
+  <Hit_accession>XP_020341142</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>6.00637e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>171</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFH</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVGDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDTSSFQRAKF-WVKEVQN-CEEHCKIYLCGTKVDLIESDRGLRQVDYHDVQDFADEIGAQHFETSSKTGNNVDELFQKVAEDFN</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  +  WVK+V +  E  C I + GTK+DL+++ R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1188108552|ref|XP_020776313.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-24 [Boleophthalmus pectinirostris]</Hit_def>
+  <Hit_accession>XP_020776313</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>7.98253e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>114</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLSVSGVQAREGGGCC</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKAIQVGDKVITLGIWDTAGSERYEAMSRIYYRGARAAVVCYDLTDSSSFQ--RAKFWVKELQNCEEHCKIYLCGTKNDLIQGDRSLRQIDFHDVQDFAEEIGAQHFETSSKTGNNVDELFQKIAEDYNDSALQFMTEETGVDLGQKKDSYLYTCC</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAA++C+DLTD +SF+  ++K+  K L   E  C I + GTK DL+Q  R  R +   +V+  A +  A  FE SSK G  + E+F+ + + ++           G+ +   +      CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|966711958|gb|KTG44196.1|</Hit_id>
+  <Hit_def>hypothetical protein cypCar_00005871 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>KTG44196</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>141.354</Hsp_bit-score>
+      <Hsp_score>355</Hsp_score>
+      <Hsp_evalue>8.70488e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHRRFLVGPYQNTIGAAFVAKALNVNDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFGRARF-WVKE-LQNCEEHCKIYLCGTKSDLIEADRSVRQVDYHDVQDFADEIGAQHFETSSKTGKNVDEVFQKVAEDF</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++  F  G   +TIGA+F  K +  N +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF   +  WVK+ L   E  C I + GTK DL++A R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1101607184|ref|XP_018967955.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 [Cyprinus carpio]</Hit_def>
+  <Hit_accession>XP_018967955</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>9.32672e-39</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHRRFLVGPYQNTIGAAFVAKALNVNDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFGRARF-WVKE-LQNCEEHCKIYLCGTKSDLIEADRSVRQVDYHDVQDFADEIGAQHFETSSKTGKNVDEVFQKVAEDF</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++  F  G   +TIGA+F  K +  N +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF   +  WVK+ L   E  C I + GTK DL++A R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1041104724|ref|XP_017275459.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X1 [Kryptolebias marmoratus]</Hit_def>
+  <Hit_accession>XP_017275459</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.05351e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHS</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVGEKVITLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFQ--RAKFWVKELQNCEEHCRIYLCGTKNDLIEGDRSLRQIDYHDVQDFAEEIGAQHFETSSKSGNNVDELFQKVAEDYNS</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  ++K+  K L   E  C I + GTK DL++  R  R +   +V+  A +  A  FE SSK+G  + E+F+ V + ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1041104726|ref|XP_017275460.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X2 [Kryptolebias marmoratus]</Hit_def>
+  <Hit_accession>XP_017275460</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.969</Hsp_bit-score>
+      <Hsp_score>354</Hsp_score>
+      <Hsp_evalue>1.12882e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHS</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVGEKVITLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFQ--RAKFWVKELQNCEEHCRIYLCGTKNDLIEGDRSLRQIDYHDVQDFAEEIGAQHFETSSKSGNNVDELFQKVAEDYNS</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  ++K+  K L   E  C I + GTK DL++  R  R +   +V+  A +  A  FE SSK+G  + E+F+ V + ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|929084288|ref|XP_014052704.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24-like [Salmo salar]</Hit_def>
+  <Hit_accession>XP_014052704</Hit_accession>
+  <Hit_len>201</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>140.584</Hsp_bit-score>
+      <Hsp_score>353</Hsp_score>
+      <Hsp_evalue>1.33866e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHS</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHHRFLVGPYQNTIGAAFVAKPIQVGDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDTSSFQRARF-WVKE-LQNCDEHCKIYLCGTKIDLIESDRGLRQVDYHDVQDFADEIGAKHFETSSKTGNNVDELFQKVAEDYNS</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K I+   +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  +  WVK+ L   +  C I + GTK+DL+++ R  R V   +V+  A +  A  FE SSK G  + E+F+ V + ++S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1025141715|ref|XP_016353565.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24-like [Sinocyclocheilus anshuiensis]</Hit_def>
+  <Hit_accession>XP_016353565</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.428</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>3.76979e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHS</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHRRFLVGPYQNTIGAAFVAKALNVGDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFGRARF-WVKE-LQNCEEHCKIYLCGTKSDLIEANRSMRQVDYHDVQDFADEIGAQHFETSSKTGKNVDEVFQKVAEDFSS</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++  F  G   +TIGA+F  K +    +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF   +  WVK+ L   E  C I + GTK DL++A R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|960976329|ref|XP_014803234.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24, partial [Calidris pugnax]</Hit_def>
+  <Hit_accession>XP_014803234</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>5.8448e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>170</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>167</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHF</Hsp_qseq>
+      <Hsp_hseq>VDAKVVLLGQEGVGKSSLVERCAHRRFRPGPYQNTIGAAFVAKVMSVGEQTVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFQ--RAKFWVNELQNCEEGCRIYLCGTKSDLLEEDRRKRGVDFHDVQDYAEEIKADLFETSSKTGQSVDELFQKVAEDY</Hsp_hseq>
+      <Hsp_midline>VD K+VLLGQ GVGK+ LV R  +  F  G   +TIGA+F  K +    +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF+  ++K+    L   E GC I + GTK DL++  R  R V   +V+  A +  AD+FE SSK G  + E+F+ V + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|1020409083|ref|XP_016123140.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24-like [Sinocyclocheilus grahami]</Hit_def>
+  <Hit_accession>XP_016123140</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>139.043</Hsp_bit-score>
+      <Hsp_score>349</Hsp_score>
+      <Hsp_evalue>6.00434e-38</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHS</Hsp_qseq>
+      <Hsp_hseq>VDAKVVMLGKESVGKTSLVERYVHGRFLVGPYQNTIGAAFVAKALNVSDKVVTLGIWDTAGSERYEAMSRIYYRGARAAIVCYDLTDSSSFGRARF-WVKE-LQNCEEHCKIYLCGTKSDLIEADRSVRQVDYHDVQDFADEIGAQHFETSSKTGKNVDEVFQKVAEDFSS</Hsp_hseq>
+      <Hsp_midline>VD K+V+LG+  VGKT LV RY++  F  G   +TIGA+F  K +  + +   LGIWDTAG ER++++S  Y RGARAAI+C+DLTD +SF   +  WVK+ L   E  C I + GTK DL++A R  R V   +V+  A +  A  FE SSK G  + E+F+ V + F S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|470465198|ref|XP_004341591.1|</Hit_id>
+  <Hit_def>Ras family protein [Acanthamoeba castellanii str. Neff] &gt;gi|440798437|gb|ELR19505.1| Ras family protein [Acanthamoeba castellanii str. Neff]</Hit_def>
+  <Hit_accession>XP_004341591</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>137.887</Hsp_bit-score>
+      <Hsp_score>346</Hsp_score>
+      <Hsp_evalue>2.38075e-37</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>MEVVDLKLVLLGQPGVGKTCLVYRYLYNTFGETIS-TIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADV------------FEVSSKAGTGIGEIFEAVVQHFHSRGA</Hsp_qseq>
+      <Hsp_hseq>MASVDLKVVLLGQSDVGKTCLVDRYLNGKYQDTISPTVGAAFGAKKLYVGDRPLTVGVWDTAGAERFEAMSRLYYRAARAACVCYDLTRAETWPKVKF-WINELL-SFEKECALYIVGTKADLLEEG-VPRGVEASEVADYARQINAQVFDALLIPCPHVTFETSSKKGYSVEDLFDTIVYDFVKRGA</Hsp_hseq>
+      <Hsp_midline>M  VDLK+VLLGQ  VGKTCLV RYL   + +TIS T+GA+F  KK+    RP  +G+WDTAG ERF+++S  Y R ARAA +C+DLT   ++  ++  W+ ++L   E  C + IVGTK DL++ G   R V   EV   A + +A V            FE SSK G  + ++F+ +V  F  RGA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1121820481|ref|XP_019511124.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X3 [Hipposideros armiger]</Hit_def>
+  <Hit_accession>XP_019511124</Hit_accession>
+  <Hit_len>211</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.191</Hsp_bit-score>
+      <Hsp_score>339</Hsp_score>
+      <Hsp_evalue>2.09016e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA-SGGAGHGGLSVS</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFE--RAKFWVKELQNLEEGCQIYLCGTKSDLLEEDRRRRRVDFHDVQDYADNIKAQLFETSSKTGQSVDELFQKVAEDYVSVAAFQNGAKLPPLSLT</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  ++K+  K L   E GC I + GTK DL++  R  R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A   GA    LS++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|431892717|gb|ELK03150.1|</Hit_id>
+  <Hit_def>Ras-related protein Rab-24 [Pteropus alecto]</Hit_def>
+  <Hit_accession>ELK03150</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.806</Hsp_bit-score>
+      <Hsp_score>338</Hsp_score>
+      <Hsp_evalue>3.27776e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFE--RAKFWVKELQNLEEGCQIYLCGTKSDLLEEDRRRRRVDFHDVQDYADNIKAQLFETSSKTGQSVDELFQKVAEDYVSVAA</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  ++K+  K L   E GC I + GTK DL++  R  R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1124012253|ref|XP_019566549.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X2 [Rhinolophus sinicus]</Hit_def>
+  <Hit_accession>XP_019566549</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>4.1512e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFE--RAKFWVKELQNLEEGCQIYLCGTKSDLLEEDRRRRRVDFHDVQDYADNIKAQLFETSSKTGQSVDELFQKVAEDYVSVAA</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  ++K+  K L   E GC I + GTK DL++  R  R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|586536798|ref|XP_006923259.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 [Pteropus alecto] &gt;gi|759125917|ref|XP_011360516.1| PREDICTED: ras-related protein Rab-24 isoform X2 [Pteropus vampyrus] &gt;gi|1012205213|ref|XP_016013787.1| PREDICTED: ras-related protein Rab-24 [Rousettus aegyptiacus] &gt;gi|1121820485|ref|XP_019511125.1| PREDICTED: ras-related protein Rab-24 isoform X4 [Hipposideros armiger]</Hit_def>
+  <Hit_accession>XP_006923259</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.42</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>4.28804e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFERAKF-WVKE-LQNLEEGCQIYLCGTKSDLLEEDRRRRRVDFHDVQDYADNIKAQLFETSSKTGQSVDELFQKVAEDYVSVAA</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  +  WVK+ L   E GC I + GTK DL++  R  R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|742152636|ref|XP_010844876.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X3 [Bison bison bison]</Hit_def>
+  <Hit_accession>XP_010844876</Hit_accession>
+  <Hit_len>194</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>133.65</Hsp_bit-score>
+      <Hsp_score>335</Hsp_score>
+      <Hsp_evalue>6.80374e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>187</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGASGGAGHGGLS</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHDRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFERAKF-WVKELRNQ-EEGCQIYLCGTKSDLLEEDRRRRRVDFHDVQDYADNIKAQLFETSSKTGQSVDELFQKVAEDYVSVAAFQGKLPGPTS</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY+++ F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  +  WVK++ ++ E GC I + GTK DL++  R  R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A  G   G  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1124012250|ref|XP_019566548.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-24 isoform X1 [Rhinolophus sinicus]</Hit_def>
+  <Hit_accession>XP_019566548</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>8.1702e-36</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>VDLKLVLLGQPGVGKTCLVYRYLYNTF--GETISTIGASFAMKKIESNGRPCNLGIWDTAGQERFDSLSSFYCRGARAAIICFDLTDRASFECLQSKWVKKVLDEAEPGCHICIVGTKLDLVQAGRYGRAVSEEEVRAVAAKHHADVFEVSSKAGTGIGEIFEAVVQHFHSRGA</Hsp_qseq>
+      <Hsp_hseq>VDVKVVMLGKEYVGKTSLVERYVHNRFLVGPYQNTIGAAFVAKVMSVGDRTVTLGIWDTAGSERYEAMSRIYYRGAKAAIVCYDLTDSSSFE--RAKFWVKELQNLEEGCQIYLCGTKSDLLEEDRRRRRVDFHDVQDYADNIKAQLFETSSKTGQSVDELFQKVAEDYVSVAA</Hsp_hseq>
+      <Hsp_midline>VD+K+V+LG+  VGKT LV RY++N F  G   +TIGA+F  K +    R   LGIWDTAG ER++++S  Y RGA+AAI+C+DLTD +SFE  ++K+  K L   E GC I + GTK DL++  R  R V   +V+  A    A +FE SSK G  + E+F+ V + + S  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>123117878</Statistics_db-num>
+      <Statistics_db-len>45199647714</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.6.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_195407</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>226</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_195407</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>226</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|148232154|ref|NP_001086022.1|</Hit_id>
+  <Hit_def>RAB20, member RAS oncogene family L homeolog [Xenopus laevis] &gt;gi|49119003|gb|AAH73712.1| MGC83654 protein [Xenopus laevis]</Hit_def>
+  <Hit_accession>NP_001086022</Hit_accession>
+  <Hit_len>226</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>1.24242e-168</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>226</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>226</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCCK</Hsp_qseq>
+      <Hsp_hseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCCK</Hsp_hseq>
+      <Hsp_midline>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCCK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1043433427|gb|OCA46054.1|</Hit_id>
+  <Hit_def>hypothetical protein XENTR_v90005962mg [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>OCA46054</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.662</Hsp_bit-score>
+      <Hsp_score>1145</Hsp_score>
+      <Hsp_evalue>4.56979e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDLKLVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTANDDCIFAVVGNKIDLTDDYDSESDMEGERPRTSSKIRKQVDLEDAIALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDGLFEGVFNMVVPLIVKKKASGHDETVNLAQSKPEKSKNRCC</Hsp_hseq>
+      <Hsp_midline>MKKPDLK+VLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTA+DDCIFAVVGNKIDLT+DY+S+SD+EGERPRTSSKIR+QV+LEDA ALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVD LFEGVFNMV+PLIVKKKASG DETVNLAQSKP KSK+RCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|62859793|ref|NP_001017295.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-20 [Xenopus tropicalis] &gt;gi|847100246|ref|XP_012812507.1| PREDICTED: ras-related protein Rab-20 isoform X2 [Xenopus tropicalis] &gt;gi|847100250|ref|XP_012812508.1| PREDICTED: ras-related protein Rab-20 isoform X2 [Xenopus tropicalis] &gt;gi|847100254|ref|XP_012812509.1| PREDICTED: ras-related protein Rab-20 isoform X2 [Xenopus tropicalis] &gt;gi|89273900|emb|CAJ83848.1| RAB20, member RAS oncogene family [Xenopus tropicalis] &gt;gi|111305734|gb|AAI21520.1| rab20 protein [Xenopus tropicalis] &gt;gi|1043433426|gb|OCA46053.1| hypothetical protein XENTR_v90005962mg [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>NP_001017295</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>5.53584e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDLKLVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTANDDCIFAVVGNKIDLTDDYDSESDMEGERPRTSSKIRKQVDLEDAIALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDGLFEGVFNMVVPLIVKKKASGHDETVNLAQSKPEKSKNRCC</Hsp_hseq>
+      <Hsp_midline>MKKPDLK+VLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTA+DDCIFAVVGNKIDLT+DY+S+SD+EGERPRTSSKIR+QV+LEDA ALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVD LFEGVFNMV+PLIVKKKASG DETVNLAQSKP KSK+RCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|847100239|ref|XP_012812505.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 isoform X1 [Xenopus tropicalis]</Hit_def>
+  <Hit_accession>XP_012812505</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.506</Hsp_bit-score>
+      <Hsp_score>1142</Hsp_score>
+      <Hsp_evalue>5.72457e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDLKLVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTANDDCIFAVVGNKIDLTDDYDSESDMEGERPRTSSKIRKQVDLEDAIALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDGLFEGVFNMVVPLIVKKKASGHDETVNLAQSKPEKSKNRCC</Hsp_hseq>
+      <Hsp_midline>MKKPDLK+VLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTA+DDCIFAVVGNKIDLT+DY+S+SD+EGERPRTSSKIR+QV+LEDA ALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVD LFEGVFNMV+PLIVKKKASG DETVNLAQSKP KSK+RCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|147905975|ref|NP_001087734.1|</Hit_id>
+  <Hit_def>MGC84213 protein [Xenopus laevis] &gt;gi|51703549|gb|AAH81151.1| MGC84213 protein [Xenopus laevis] &gt;gi|1050390360|gb|OCT92552.1| hypothetical protein XELAEV_18015609mg [Xenopus laevis] &gt;gi|1050390361|gb|OCT92553.1| hypothetical protein XELAEV_18015609mg [Xenopus laevis]</Hit_def>
+  <Hit_accession>NP_001087734</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.187</Hsp_bit-score>
+      <Hsp_score>1123</Hsp_score>
+      <Hsp_evalue>7.98238e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>225</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTIGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRTASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTDDYDSENELEGERPRTSSKIHRQVNLEDAIAFYKRIMKYKMLDENVAPAAEKMCFETSAKTGYNVDVLFEGVFNMVLPLIVKKKASGREETVNLAQSKSENSKNRCC</Hsp_hseq>
+      <Hsp_midline>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVST+GGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR ASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLT+DY+S++++EGERPRTSSKI RQVNLEDA A YKRIMKYKMLDENV PAAEKMCFETSAKTGYNVDVLFEGVFNMV+PLIVKKKASG +ETVNLAQSK   SK+RCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1072254898|ref|XP_018412509.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Nanorana parkeri]</Hit_def>
+  <Hit_accession>XP_018412509</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>404.445</Hsp_bit-score>
+      <Hsp_score>1038</Hsp_score>
+      <Hsp_evalue>1.11127e-141</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRT--SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRSASAIILTYDVSNMQSLLELEDRFLGLTDTASDDCLFAVVGNKVDLTDDYEGDREFEEERPRTCSTSKVRKQVQSEDAIGLYKRIMKYRMVDENHAPAAEKMCFETSAKTGHNVDVLFESVFNMVIPLIVKKKANGPEDTVNLAQSSKKQTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR+ASA+ILTYDVSNMQSLLELEDRFLGLTDTASDDC+FAVVGNK+DLT+DY  D + E ERPRT  +SK+R+QV  EDA  LYKRIMKY+M+DEN  PAAEKMCFETSAKTG+NVDVLFE VFNMVIPLIVKKKA+G ++TVNLAQS   ++KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|1050393190|gb|OCT95381.1|</Hit_id>
+  <Hit_def>hypothetical protein XELAEV_18013069mg [Xenopus laevis]</Hit_def>
+  <Hit_accession>OCT95381</Hit_accession>
+  <Hit_len>176</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.829</Hsp_bit-score>
+      <Hsp_score>904</Hsp_score>
+      <Hsp_evalue>3.20579e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>169</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>169</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAE</Hsp_qseq>
+      <Hsp_hseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAE</Hsp_hseq>
+      <Hsp_midline>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1003733237|ref|XP_015706927.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Coturnix japonica]</Hit_def>
+  <Hit_accession>XP_015706927</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>354.369</Hsp_bit-score>
+      <Hsp_score>908</Hsp_score>
+      <Hsp_evalue>5.7813e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPR-----TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLVELEDRFLALTDSASADCIFAIVGNKVDLSDDCASPPD--ENRPEKAIAGCSSKVRKQVRVEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSSCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELEDRFL LTD+AS DCIFA+VGNK+DL++D  S  D    RP       SSK+R+QV +EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|542158661|ref|XP_005488078.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Zonotrichia albicollis]</Hit_def>
+  <Hit_accession>XP_005488078</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.058</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>4.53661e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLSDDCTSAPD--ENRPRKSGASCGSKVRKQVHAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D  S  D    RPR S     SK+R+QV+ EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|118084344|ref|XP_416953.2|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Gallus gallus]</Hit_def>
+  <Hit_accession>XP_416953</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.058</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>5.83697e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPR-----TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLVELEDKFLALTDSASADCIFAIVGNKVDLSDDCASPPD--ENRPEKAVAGCSSKVRKQVRVEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIIRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELED+FL LTD+AS DCIFA+VGNK+DL++D  S  D    RP       SSK+R+QV +EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+I+++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|733874218|ref|XP_003207895.2|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Meleagris gallopavo]</Hit_def>
+  <Hit_accession>XP_003207895</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.517</Hsp_bit-score>
+      <Hsp_score>898</Hsp_score>
+      <Hsp_evalue>1.88534e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPR-----TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLAELEDRFLALTDSASADCIFAIVGNKVDLSDDCALPPD--ENRPEKAVAGCSSKVRKQVRVEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPSQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELEDRFL LTD+AS DCIFA+VGNK+DL++D     D    RP       SSK+R+QV +EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|586456759|ref|XP_006851577.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Chrysochloris asiatica]</Hit_def>
+  <Hit_accession>XP_006851577</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>350.517</Hsp_bit-score>
+      <Hsp_score>898</Hsp_score>
+      <Hsp_evalue>2.29121e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSD--SDIEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSK-PNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDVKIVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWRSYNISIWDTAGREQFHGLGSMYCRGAAAIILTYDVNHLQSLLELEDRFLGLTDTASTDCLFAIVGNKVDLSEDQEKDEVSSEQASSSCVSTKVPKQVKLEDAVALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYNVDHLFETLFDMVVPVILRQRAEGPPQTVDISDYKQPKQAKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD+K+VLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQW  YNISIWDTAGREQFHGLGSMYCR A+A+ILTYDV+++QSLLELEDRFLGLTDTAS DC+FA+VGNK+DL+ED   D  S  +      S+K+ +QV LEDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGYNVD LFE +F+MV+P+I++++A G  +TV+++  K P ++KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|524978903|ref|XP_005037529.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Ficedula albicollis]</Hit_def>
+  <Hit_accession>XP_005037529</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>349.362</Hsp_bit-score>
+      <Hsp_score>895</Hsp_score>
+      <Hsp_evalue>6.72061e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSD---IEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLSDDCTSPPDENRAEKSGASCGSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPSQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D  S  D    E       SK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|514703950|ref|XP_005009112.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Anas platyrhynchos] &gt;gi|483525418|gb|EOB09048.1| Ras-related protein Rab-20, partial [Anas platyrhynchos]</Hit_def>
+  <Hit_accession>XP_005009112</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>8.93584e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLMELEDKFLALTDSASADCIFAIVGNKVDLTDDCALPPD--ENRPEKSVASCGAKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELED+FL LTD+AS DCIFA+VGNK+DLT+D     D    RP  S     +K+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|558146771|ref|XP_006119758.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Pelodiscus sinensis]</Hit_def>
+  <Hit_accession>XP_006119758</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.977</Hsp_bit-score>
+      <Hsp_score>894</Hsp_score>
+      <Hsp_evalue>1.05105e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDY----NSDSDIEGERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTISTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNNLQSLIELEDRFLALTDTASTDCIFAIVGNKVDLTNEYALLLERADESRPEKPVTSCISTKVQKQVHLDDAVALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETIFDMVVPIILRQQAEGPPQTVDITNYKSAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDT+STVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+N+QSL+ELEDRFL LTDTAS DCIFA+VGNK+DLT +Y        +   E+P T   S+K+++QV+L+DA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE +F+MV+P+I++++A G  +TV++   K  K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|729754396|ref|XP_010573925.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Haliaeetus leucocephalus]</Hit_def>
+  <Hit_accession>XP_010573925</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.821</Hsp_bit-score>
+      <Hsp_score>891</Hsp_score>
+      <Hsp_evalue>2.14698e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTDDCALPPD--ENRPEKSVASCGSKVRKQVHAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT+D     D    RP  S     SK+R+QV+ EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|224042832|ref|XP_002189536.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Taeniopygia guttata]</Hit_def>
+  <Hit_accession>XP_002189536</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>3.04862e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLSDDCTLPPD--ENRPEKSGASCGSKVRKQVHAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D     D    RP  S     SK+R+QV+ EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|663268375|ref|XP_008494111.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Calypte anna] &gt;gi|676774341|gb|KFP02457.1| Ras-related protein Rab-20 [Calypte anna]</Hit_def>
+  <Hit_accession>XP_008494111</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>3.40164e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDI-EGERPRTS--SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTDDSALPPDENRPEKALTSCGSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGPQQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT+D     D    E+  TS  SK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|998656121|ref|XP_015477424.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Parus major]</Hit_def>
+  <Hit_accession>XP_015477424</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.436</Hsp_bit-score>
+      <Hsp_score>890</Hsp_score>
+      <Hsp_evalue>3.96559e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLSDDCSVPPD--ENRPEKSGASCGSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D +   D    RP  S     SK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|929407130|ref|XP_014113976.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Pseudopodoces humilis]</Hit_def>
+  <Hit_accession>XP_014113976</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>347.051</Hsp_bit-score>
+      <Hsp_score>889</Hsp_score>
+      <Hsp_evalue>4.88338e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLSDDCTVPPD--ENRPEKSGASCGSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D     D    RP  S     SK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1159633195|gb|OPJ66868.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-20 [Patagioenas fasciata monilis]</Hit_def>
+  <Hit_accession>OPJ66868</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>8.92151e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDI-EGERPRTS--SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMEKRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLELTDSASADCIFAIVGNKVDLSDDCALPPDENRPEKPVASCGSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIIRQKAEGLPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYME+RFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D     D    E+P  S  SK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+I+++KA GL +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|944211507|gb|KQK78243.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-20 [Amazona aestiva]</Hit_def>
+  <Hit_accession>KQK78243</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>8.92151e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSD---IEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMEKRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTXDCALPPDENRPEKSVASCSSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYQVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYME+RFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT D     D    E      SSK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|527254027|ref|XP_005145302.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Melopsittacus undulatus]</Hit_def>
+  <Hit_accession>XP_005145302</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>1.00642e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSD---IEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMEKRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTDDCALPPDENRPEKSVASCSSKVRKQVCAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYME+RFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT+D     D    E      SSK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|669283005|ref|XP_008634095.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Corvus brachyrhynchos] &gt;gi|676417693|gb|KFO60837.1| Ras-related protein Rab-20 [Corvus brachyrhynchos]</Hit_def>
+  <Hit_accession>XP_008634095</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>1.02872e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEEKFLALTDSASADCIFAIVGNKVDLSDDCTLPPD--ENRPEKSVASCGSKVRKQVHAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE++FL LTD+AS DCIFA+VGNK+DL++D     D    RP  S     SK+R+QV+ EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|959070695|ref|XP_014738728.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Sturnus vulgaris]</Hit_def>
+  <Hit_accession>XP_014738728</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>1.11073e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDI-EGERPRTS--SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLSDDCTLPPDENKPEKPGASCGSKVQKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D     D  + E+P  S  SK+++QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|960969434|ref|XP_014799603.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Calidris pugnax]</Hit_def>
+  <Hit_accession>XP_014799603</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>346.28</Hsp_bit-score>
+      <Hsp_score>887</Hsp_score>
+      <Hsp_evalue>1.12296e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMEKRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTDDCALPPD--ENRPEKSAASCGSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYME+RFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT+D     D    RP  S     SK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|529437319|ref|XP_005238422.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Falco peregrinus]</Hit_def>
+  <Hit_accession>XP_005238422</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.895</Hsp_bit-score>
+      <Hsp_score>886</Hsp_score>
+      <Hsp_evalue>1.23934e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSD---IEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTNDCALPPDENKPEKSVASCGSKVRKQVHAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT D     D    E       SK+R+QV+ EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|926520739|ref|XP_013809485.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Apteryx australis mantelli]</Hit_def>
+  <Hit_accession>XP_013809485</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.51</Hsp_bit-score>
+      <Hsp_score>885</Hsp_score>
+      <Hsp_evalue>2.45488e-118</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGE-RPRT------SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>EEPDGKVVLLGDMSVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEDRFLALTDTASADCIFAIVGNKVDLTDDCALSPETEDENRPEKSLASCGSIKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGSPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>++PD KVVLLGDM+VGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELEDRFL LTDTAS DCIFA+VGNK+DLT+D     + E E RP        S K+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|564232290|ref|XP_006260526.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Alligator mississippiensis]</Hit_def>
+  <Hit_accession>XP_006260526</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>3.27867e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIE----GERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTLSTVGGAFYLKQWGPYHISVWDTAGREQFHGLGSMYCRGAAAVILTYDVNNLQSLIELEDRFLALTDSASADCIFAIVGNKVDLTDECALQPEPEDENRSEKPITSCISTKVQKQVHMDDAIALYKKILKYRMLDEKDVPAAEKMCFETSAKTGYKVDFLFETIFEMVVPIILRQKAEGPPQTVDITNYKPAKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDT+STVGGAFYLKQWGPY+IS+WDTAGREQFHGLGSMYCR A+AVILTYDV+N+QSL+ELEDRFL LTD+AS DCIFA+VGNK+DLT++     + E     E+P T   S+K+++QV+++DA ALYK+I+KY+MLDE  VPAAEKMCFETSAKTGY VD LFE +F MV+P+I+++KA G  +TV++   KP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1117401719|ref|XP_019380939.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Gavialis gangeticus]</Hit_def>
+  <Hit_accession>XP_019380939</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>344.354</Hsp_bit-score>
+      <Hsp_score>882</Hsp_score>
+      <Hsp_evalue>7.21562e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIE----GERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTLSTVGGAFYLKQWGPYHISVWDTAGREQFHGLGSMYCRGAAAVILTYDVNNLQSLIELEDRFLALTDSASADCIFAIVGNKVDLTDECALQPEAEDENRSEKPITSCISTKVQKQVHMDDAIALYKKILKYRMLDEKDVPAAEKMCFETSAKTGYKVDFLFETIFELVVPIILRQKAEGPPQTVDITNYKPAKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDT+STVGGAFYLKQWGPY+IS+WDTAGREQFHGLGSMYCR A+AVILTYDV+N+QSL+ELEDRFL LTD+AS DCIFA+VGNK+DLT++     + E     E+P T   S+K+++QV+++DA ALYK+I+KY+MLDE  VPAAEKMCFETSAKTGY VD LFE +F +V+P+I+++KA G  +TV++   KP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|699653826|ref|XP_009897010.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Picoides pubescens] &gt;gi|678198998|gb|KFV65980.1| Ras-related protein Rab-20 [Picoides pubescens]</Hit_def>
+  <Hit_accession>XP_009897010</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.969</Hsp_bit-score>
+      <Hsp_score>881</Hsp_score>
+      <Hsp_evalue>7.23247e-118</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSD---IEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLSLTDSASADCIFAIVGNKVDLTDDCALPPDENRSEKAVAGCGSKVRKQVRAEDAIALYKKILKYKMIDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGPSQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT+D     D    E       SK+R+QV  EDA ALYK+I+KYKM+DE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1051180037|ref|XP_017672819.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Lepidothrix coronata]</Hit_def>
+  <Hit_accession>XP_017672819</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>1.41104e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSD---IEGERPRTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSFQSLTELEERFLALTDSASADCIFAIVGNKVDLSDDCTLPPDENRAEKSVASCGSKVRKQVRAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIARQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV++ QSL ELE+RFL LTD+AS DCIFA+VGNK+DL++D     D    E       SK+R+QV  EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+I ++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|557263607|ref|XP_006017293.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Alligator sinensis]</Hit_def>
+  <Hit_accession>XP_006017293</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.199</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>1.58797e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIE----GERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKDPDGKVVLLGDMNVGKTSLLHRYMERRFQDTLSTVGGAFYLKQWGPYHISVWDTAGREQFHGLGSMYCRGAAAVILTYDVNNLQSLLELEDRFLALTDSASADCIFAIVGNKVDLTDECALQPEPEDENRSEKPITSCISTKVQKQVHMDDAIALYKKILKYRMLDEKDVPAAEKMCFETSAKTGYKVDFLFETIFEMVVPIILRQKAEGPPQTVDITNYKPAKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>MK PD KVVLLGDMNVGKTSLLHRYMERRFQDT+STVGGAFYLKQWGPY+IS+WDTAGREQFHGLGSMYCR A+AVILTYDV+N+QSLLELEDRFL LTD+AS DCIFA+VGNK+DLT++     + E     E+P T   S+K+++QV+++DA ALYK+I+KY+MLDE  VPAAEKMCFETSAKTGY VD LFE +F MV+P+I+++KA G  +TV++   KP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|395527295|ref|XP_003765785.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Sarcophilus harrisii]</Hit_def>
+  <Hit_accession>XP_003765785</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>3.05118e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRT-----SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDVKIVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWRSYNISIWDTAGREQFHGLGSMYCRGAAAIILTYDVNHLQSLIELEDRFLSLTDTASTDCLFAIVGNKIDLTDDAGGEDDAEDEPGKATGTCNSARAPKRVCLEDAMALYKKILKYRMLDEKEVPAAEKMCFETSAKTGYNVDYVFETLFDMVVPVILRQRAEGPSQTVDITHYKPAKQTQSRCC</Hsp_hseq>
+      <Hsp_midline>M+KPD+K+VLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQW  YNISIWDTAGREQFHGLGSMYCR A+A+ILTYDV+++QSL+ELEDRFL LTDTAS DC+FA+VGNKIDLT+D   + D E E  +      S++  ++V LEDA ALYK+I+KY+MLDE  VPAAEKMCFETSAKTGYNVD +FE +F+MV+P+I++++A G  +TV++   KP K ++SRCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1121814080|ref|XP_019385208.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 isoform X1 [Crocodylus porosus]</Hit_def>
+  <Hit_accession>XP_019385208</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>3.38169e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIE----GERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQDTLSTVGGAFYLKQWGPYHISVWDTAGREQFHGLGSMYCRGAAAVILTYDVNNLQSLTELEDRFLALTDSASADCIFAIVGNKVDLTDECALQPEAEDENRSEKPVTSCISTKVQKQVRMDDAIALYKKILKYRMLDEKDVPAAEKMCFETSAKTGYKVDFLFETIFELVVPIILRQKAEGPPQTVDITNYKPAKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQDT+STVGGAFYLKQWGPY+IS+WDTAGREQFHGLGSMYCR A+AVILTYDV+N+QSL ELEDRFL LTD+AS DCIFA+VGNK+DLT++     + E     E+P T   S+K+++QV ++DA ALYK+I+KY+MLDE  VPAAEKMCFETSAKTGY VD LFE +F +V+P+I+++KA G  +TV++   KP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|488509963|ref|XP_004447077.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 isoform X1 [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>XP_004447077</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>4.44711e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDS-DIEGERPR------TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDGKIVLLGDMNVGKTSLLHRYMERRFPDTVSTVGGAFYLKQWRSYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVSHLQSLVELEDRFLGLTDTASNDCLFAIVGNKVDLTEEGAAEGQEKEDGDPGKAGSGCVSARVPRQVQLEDAVALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYNVDLLFETLFDMVVPVILRKRAEGPPQTVDITNYKPPKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>M+KPD K+VLLGDMNVGKTSLLHRYMERRF DTVSTVGGAFYLKQW  YNISIWDTAGREQFHGLGSMYCR A+AVILTYDVS++QSL+ELEDRFLGLTDTAS+DC+FA+VGNK+DLTE+  ++  + E   P        S+++ RQV LEDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGYNVD+LFE +F+MV+P+I++K+A G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|530627042|ref|XP_005303042.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Chrysemys picta bellii]</Hit_def>
+  <Hit_accession>XP_005303042</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>5.77229e-117</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>KPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDY----NSDSDIEGERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>KPDGKVVLLGDMNVGKTSLLHRYTERRFQDTISTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNNLQSLIELEDRFLALTDTASTDCIFAIVGNKVDLTNEYALLLETEEENRSEKLVTSCISTKVQKQVHLDDAVALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETIFDMVVPIILRQQAEGPLQTVDLTNCKSAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>KPD KVVLLGDMNVGKTSLLHRY ERRFQDT+STVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+N+QSL+ELEDRFL LTDTAS DCIFA+VGNK+DLT +Y     ++ +   E+  T   S+K+++QV+L+DA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE +F+MV+P+I++++A G  +TV+L   K  K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|591378841|ref|XP_007063971.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Chelonia mydas]</Hit_def>
+  <Hit_accession>XP_007063971</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.658</Hsp_bit-score>
+      <Hsp_score>875</Hsp_score>
+      <Hsp_evalue>6.87817e-117</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>KPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDY----NSDSDIEGERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>KPDGKVVLLGDMNVGKTSLLHRYMERRFEDTTSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNNLQSLIELEDRFLALTDTASTDCIFAIVGNKVDLTNEYALLQETEDENRPEKPVTSCISTKVQKQVYLDDAVALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETIFDMVVPIILRQQAEGPLQTVEITNYKSAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>KPD KVVLLGDMNVGKTSLLHRYMERRF+DT STVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+N+QSL+ELEDRFL LTDTAS DCIFA+VGNK+DLT +Y     ++ +   E+P T   S+K+++QV L+DA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE +F+MV+P+I++++A G  +TV +   K  K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1032033143|gb|ANG60437.1|</Hit_id>
+  <Hit_def>RAB20 member RAS oncogene family protein [Castor fiber]</Hit_def>
+  <Hit_accession>ANG60437</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>341.273</Hsp_bit-score>
+      <Hsp_score>874</Hsp_score>
+      <Hsp_evalue>1.16616e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPR-------TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDGKIVLLGDMNVGKTSLLHRYMERRFPDTVSTVGGAFYLKQWRSFNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNHLQSLIELEDRFLGLTDTASKDCLFAIVGNKVDLTEEEATESREKEERTPGKAIGGYVSPRVPKQVQLEDAVALYKKILKYKMLDEKEVPAAEQMCFETSAKTGYNVDLLFETLFDMVVPVIVRQRAEEPAQTVDISSSKPPKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>M+KPD K+VLLGDMNVGKTSLLHRYMERRF DTVSTVGGAFYLKQW  +NISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELEDRFLGLTDTAS DC+FA+VGNK+DLTE+  ++S  + ER          S ++ +QV LEDA ALYK+I+KYKMLDE  VPAAE+MCFETSAKTGYNVD+LFE +F+MV+P+IV+++A    +TV+++ SKP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|532062333|ref|XP_005317044.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Ictidomys tridecemlineatus]</Hit_def>
+  <Hit_accession>XP_005317044</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.55044e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDS-DIEGERPR------TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDGKIVLLGDMNVGKTSLLQRYMERRFPDTVSTVGGAFYLKQWRSFNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNHLQSLVELEDRFLGLTDTASKDCLFAIVGNKVDLTEEGAAESGEKEGHDPSKAGGGCASPRVPKQVQLEDAMALYKKILKYKMLDEKDVPAAEQMCFETSAKTGYNVDLLFETLFDMVVPMILQQRAEGPPQTVDITSSKPTKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>M+KPD K+VLLGDMNVGKTSLL RYMERRF DTVSTVGGAFYLKQW  +NISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELEDRFLGLTDTAS DC+FA+VGNK+DLTE+  ++S + EG  P        S ++ +QV LEDA ALYK+I+KYKMLDE  VPAAE+MCFETSAKTGYNVD+LFE +F+MV+P+I++++A G  +TV++  SKP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|344284547|ref|XP_003414027.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Loxodonta africana]</Hit_def>
+  <Hit_accession>XP_003414027</Hit_accession>
+  <Hit_len>235</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.55368e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRT--------SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLA--QSKPNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDVKIVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWRSYNISIWDTAGREQFHGLGSMYCRGAGAIILTYDVSHLQSLVELEDRFLGLTDTANTDCLFAIVGNKVDLTED-GAAEDQEKEEGSSGGAAGSCVSAKVPKQVKLEDAVALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYNVDHLFETLFDMVVPMILRQRAEGPVQTVDISSYNKQPKPMKSGCC</Hsp_hseq>
+      <Hsp_midline>M+KPD+K+VLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQW  YNISIWDTAGREQFHGLGSMYCR A A+ILTYDVS++QSL+ELEDRFLGLTDTA+ DC+FA+VGNK+DLTED  +  D E E   +        S+K+ +QV LEDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGYNVD LFE +F+MV+P+I++++A G  +TV+++    +P   KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|696955806|ref|XP_009554335.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Cuculus canorus] &gt;gi|676578698|gb|KFO69563.1| Ras-related protein Rab-20 [Cuculus canorus]</Hit_def>
+  <Hit_accession>XP_009554335</Hit_accession>
+  <Hit_len>238</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>1.78298e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAG--------REQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGETPGTAWGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTDD--CALALDENRPEKSVASCGSKVRKQVRVEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFDMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSSCC</Hsp_hseq>
+      <Hsp_midline>MKKPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAG        REQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT+D      ++  RP  S     SK+R+QV +EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF+MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|634842805|ref|XP_007937102.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Orycteropus afer afer]</Hit_def>
+  <Hit_accession>XP_007937102</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.117</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>3.48753e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>163</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>234</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRT--------SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSK-PNKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDVKIVLLGDVNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWRSYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNHLQSLVELEDRFLGLTDTASTNCLFAIVGNKVDLTEE-GAAEDQEKEEGCSREAGSSCASAKVSKQVKLEDAVALYKKILKYKMLEEKDMPAAEKMCFETSAKTGYNVDHLFETLFDMVVPMILQKRAEGPPQTVDISNYKQPKQTKSGCC</Hsp_hseq>
+      <Hsp_midline>MKKPD+K+VLLGD+NVGKTSLLHRYMERRFQDTVSTVGGAFYLKQW  YNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELEDRFLGLTDTAS +C+FA+VGNK+DLTE+  +  D E E   +        S+K+ +QV LEDA ALYK+I+KYKML+E  +PAAEKMCFETSAKTGYNVD LFE +F+MV+P+I++K+A G  +TV+++  K P ++KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|929467033|ref|XP_005441649.2|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Falco cherrug]</Hit_def>
+  <Hit_accession>XP_005441649</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>4.90983e-116</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>PDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>PDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNSLQSLTELEERFLALTDSASADCIFAIVGNKVDLTNDCALPPD--ENKPEKSVASCGSKVRKQVHAEDAIALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYKVDYLFETVFEMVVPIIVRQKAEGPPQTVDITDYKPAKRTKSGCC</Hsp_hseq>
+      <Hsp_midline>PD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL ELE+RFL LTD+AS DCIFA+VGNK+DLT D     D    +P  S     SK+R+QV+ EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+IV++KA G  +TV++   KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1147250369|ref|XP_020021313.1|</Hit_id>
+  <Hit_def>ras-related protein Rab-20 [Castor canadensis] &gt;gi|1139434901|gb|JAV41495.1| ras-related protein Rab-20 [Castor canadensis]</Hit_def>
+  <Hit_accession>XP_020021313</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>6.16465e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDS-DIEGERP------RTSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDGKIVLLGDMNVGKTSLLHRYMERRFPDTVSTVGGAFYLKQWRSFNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNHLQSLIELEDRFLGLTDTASKDCLFAIVGNKVDLTEEEATESREKEEHTPGKAIGGYVSPRVPKQVQLEDAVALYKKILKYKMLDEKEVPAAEQMCFETSAKTGYNVDLLFETLFDMVVPVIVRQRAEEPAQTVDISSSKPPKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>M+KPD K+VLLGDMNVGKTSLLHRYMERRF DTVSTVGGAFYLKQW  +NISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELEDRFLGLTDTAS DC+FA+VGNK+DLTE+  ++S + E   P        S ++ +QV LEDA ALYK+I+KYKMLDE  VPAAE+MCFETSAKTGYNVD+LFE +F+MV+P+IV+++A    +TV+++ SKP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|327261157|ref|XP_003215398.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Anolis carolinensis]</Hit_def>
+  <Hit_accession>XP_003215398</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>7.41119e-116</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTED----YNSDSDIEGERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNKSKS-RCCK</Hsp_qseq>
+      <Hsp_hseq>KPDGKVVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWGAHNISVWDTAGREQFHGLGSMYCRGAAAVILTYDVTNLQSMMELEDRFLALTDTASTDCIFAIVGNKVDLTDTCAFLHETEDNNPSEKPNNGLMSTKMKKQVHVEDAIALYKKILKYKMLDEKNVPAAEKMCFETSAKTGYKVDCLFETVFEMVVPVILQHKAEGLPQTIDLNSYKTTKSTQFVCCR</Hsp_hseq>
+      <Hsp_midline>KPD KVVLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQWG +NIS+WDTAGREQFHGLGSMYCR A+AVILTYDV+N+QS++ELEDRFL LTDTAS DCIFA+VGNK+DLT+     + ++ +   E+P     S+K+++QV++EDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGY VD LFE VF MV+P+I++ KA GL +T++L   K  KS    CC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|984096847|ref|XP_015339563.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 isoform X2 [Marmota marmota marmota]</Hit_def>
+  <Hit_accession>XP_015339563</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.961</Hsp_bit-score>
+      <Hsp_score>868</Hsp_score>
+      <Hsp_evalue>9.55448e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDS-DIEGERPR------TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDGKIVLLGDMNVGKTSLLQRYMERRFPDTVSTVGGAFYLKQWRSFNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNHLQSLVELEDRFLGLTDTASKDCLFAIVGNKVDLTEEGATESGEKEGHNPSKAGGGCASPRVPKQVQLEDAMALYKKILKYKMLDEKDVPAAEQMCFETSAKTGYNVDLLFETLFDMVVPMILQQRAEGPPQTVDITSCKPTKRTRSGCC</Hsp_hseq>
+      <Hsp_midline>M+KPD K+VLLGDMNVGKTSLL RYMERRF DTVSTVGGAFYLKQW  +NISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELEDRFLGLTDTAS DC+FA+VGNK+DLTE+  ++S + EG  P        S ++ +QV LEDA ALYK+I+KYKMLDE  VPAAE+MCFETSAKTGYNVD+LFE +F+MV+P+I++++A G  +TV++   KP K ++S CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|585716944|ref|XP_006901625.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Elephantulus edwardii]</Hit_def>
+  <Hit_accession>XP_006901625</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>338.191</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>1.88437e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>233</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPR-------TSSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCC</Hsp_qseq>
+      <Hsp_hseq>MRKPDVKIVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWRSYNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVNHLQSLVELEDRFLGLTDTASTDCLFAIVGNKVDLTEEGAAEDQGGEEGGSGEAASSCVSCKGPRQVRLEDAVALYKKILKYKMLDEKDVPAAEKMCFETSAKTGYNVDHLFETLFEMVVPVILRQRAEGPPQTVDISNYKPPKQTKSGCC</Hsp_hseq>
+      <Hsp_midline>M+KPD+K+VLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQW  YNISIWDTAGREQFHGLGSMYCR A+AVILTYDV+++QSL+ELEDRFLGLTDTAS DC+FA+VGNK+DLTE+  ++     E           S K  RQV LEDA ALYK+I+KYKMLDE  VPAAEKMCFETSAKTGYNVD LFE +F MV+P+I++++A G  +TV+++  KP K +KS CC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|126337435|ref|XP_001375109.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Monodelphis domestica]</Hit_def>
+  <Hit_accession>XP_001375109</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.806</Hsp_bit-score>
+      <Hsp_score>865</Hsp_score>
+      <Hsp_evalue>2.04853e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MKKPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEGERPRTS-----SKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKP-NKSKSRCC</Hsp_qseq>
+      <Hsp_hseq>MKKPDVKIVLLGDMNVGKTSLLHRYMERRFQETVSTVGGAFYLKQWRSYNISIWDTAGREQFHGLGSMYCRGATAIILTYDVNHLQSLVELEDRFLSLTDTASTDCLFAIVGNKIDLTDEGDAEGGAEGLKEQGKALSGRARASRRVRLDDAVALYKKILKYRMLDEKEVPAAEEMCFETSAKTGYNVDHVFETLFDMVVPIILRQRAEGPSQTVDITNYKPVKRTQSRCC</Hsp_hseq>
+      <Hsp_midline>MKKPD+K+VLLGDMNVGKTSLLHRYMERRFQ+TVSTVGGAFYLKQW  YNISIWDTAGREQFHGLGSMYCR A+A+ILTYDV+++QSL+ELEDRFL LTDTAS DC+FA+VGNKIDLT++ +++   EG + +       ++  R+V L+DA ALYK+I+KY+MLDE  VPAAE+MCFETSAKTGYNVD +FE +F+MV+P+I++++A G  +TV++   KP  +++SRCC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1002577243|ref|XP_015667809.1|</Hit_id>
+  <Hit_def>PREDICTED: ras-related protein Rab-20 [Protobothrops mucrosquamatus]</Hit_def>
+  <Hit_accession>XP_015667809</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.495</Hsp_bit-score>
+      <Hsp_score>859</Hsp_score>
+      <Hsp_evalue>1.89701e-114</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>KPDLKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPYNISIWDTAGREQFHGLGSMYCRAASAVILTYDVSNMQSLLELEDRFLGLTDTASDDCIFAVVGNKIDLTEDYNSDSDIEG----ERPRT---SSKIRRQVNLEDAFALYKRIMKYKMLDENVVPAAEKMCFETSAKTGYNVDVLFEGVFNMVIPLIVKKKASGLDETVNLAQSKPNK-SKSRCCK</Hsp_qseq>
+      <Hsp_hseq>KPDGKVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGPHNISIWDTAGREQFHGLGSMYCRGAAAVILTYDVTNLQSMVELEDRFLALTDSASPDCLFVIAGNKVDLTDACASLPESEDKHQFEKPSNSPISTKVKKQIHMNDAVAFYRKILKYKMLDEVNVPAAEKMCFETSAKTGYNVDHLFETVFEMVVPVILQQKAEGLPQTVDLNNCKTAKNTHSACCR</Hsp_hseq>
+      <Hsp_midline>KPD KVVLLGDMNVGKTSLLHRYMERRFQDTVSTVGGAFYLKQWGP+NISIWDTAGREQFHGLGSMYCR A+AVILTYDV+N+QS++ELEDRFL LTD+AS DC+F + GNK+DLT+   S  + E     E+P     S+K+++Q+++ DA A Y++I+KYKMLDE  VPAAEKMCFETSAKTGYNVD LFE VF MV+P+I+++KA GL +TV+L   K  K + S CC+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>123117878</Statistics_db-num>
+      <Statistics_db-len>45199647714</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
